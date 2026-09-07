@@ -1,6 +1,8 @@
 # ISDA PPT Generator
 
-Automatic generation of PowerPoint presentations for Seventh-day Adventist worship services.
+![Screenshot of ISDA PPT Generator](.github/preview.png)
+
+Automatic generation of PowerPoint presentations from templates for worship services at the [International Seventh-Day Adventist Church of Brussels](https://isdachurch.be).
 
 Builds slide decks from YAML config files using a `python-pptx` template, with support for hymns, sermons, announcements, video clips, and Google Sheets integration for schedule data.
 
