@@ -1,29 +1,19 @@
 [
   {
     "id": 1,
-    "name": "He is exalted",
+    "name": "He is Exalted",
     "author": null,
     "key": null,
     "lyrics": [
       {
         "type": "verse",
         "label": "1",
-        "text": "He is exalted the King is exalted on High\nI will praise You\nHe is exalted forever exalted\nAnd I will praise His name"
+        "text": "He is exalted\nThe King is exalted on high\nI will praise Him\nHe is exalted, forever exalted\nAnd I will praise His name"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "He is the Lord\nForever His truth shall reign\nHeaven and Earth\nRejoice in His holy name\nHe is exalted the King is exalted on high"
-      },
-      {
-        "type": "verse",
-        "label": "2",
-        "text": "He is exalted, the King is on High\nI will praise Him\nHe is exalted, forever exalted\nAnd I will praise His name"
-      },
-      {
-        "type": "refrain",
-        "label": "Chorus",
-        "text": "He is the Lord\nForever His truth shall reign\nHeaven and Earth\nRejoice in His holy name\nHe is exalted the King is exalted on high\nHe is exalted the King is exalted on high"
+        "text": "He is the Lord\nForever His truth shall reign\nHeaven and earth\nRejoice in His holy name\nHe is exalted\nThe King is exalted on high"
       }
     ]
   },
@@ -36,17 +26,12 @@
       {
         "type": "verse",
         "label": "1",
-        "text": "A thousand generations falling down in worship\nTo sing the song of ages to the Lamb\nAnd all who've gone before us and all who will believe\nWill sing the song of ages to the Lamb"
+        "text": "A thousand generations\nFalling down in worship\nTo sing the song of ages to the Lamb\nAnd all who've gone before us\nAnd all who will believe\nWill sing the song of ages to the Lamb"
       },
       {
         "type": "refrain",
         "label": "Pre-Chorus",
-        "text": "Your name is the highest\nYour name is the greatest\nYour name stands above them all"
-      },
-      {
-        "type": "verse",
-        "label": "Pre-Chorus",
-        "text": "All thrones and dominions\nAll powers and positions\nYour name stands above them all"
+        "text": "Your name is the highest\nYour name is the greatest\nYour name stands above them all\nAll thrones and dominions\nAll powers and positions\nYour name stands above them all"
       },
       {
         "type": "refrain",
@@ -56,88 +41,58 @@
       {
         "type": "verse",
         "label": "2",
-        "text": "If you’ve been forgiven and if you’ve been redeemed\nSing the song forever to the Lamb\nIf you walk in freedom and if you bear His name\nSing the song forever to the Lamb\nWe’ll sing the song forever and amen"
+        "text": "If you've been forgiven\nAnd if you've been redeemed\nSing the song forever to the Lamb\nIf you walk in freedom\nAnd if you bear His name\nSing the song forever to the Lamb\nWe'll sing the song forever and amen"
       },
       {
-        "type": "verse",
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "And the angels cry, holy\nAll creation cries, holy\nYou are lifted high, holy\nHoly forever\nHear Your people sing, holy\nTo the King of kings, holy\nYou will always be, holy\nHoly forever"
+      },
+      {
+        "type": "refrain",
+        "label": "Pre-Chorus",
+        "text": "Your name is the highest\nYour name is the greatest\nYour name stands above them all\nAll thrones and dominions\nAll powers and positions\nYour name stands above them all"
+      },
+      {
+        "type": "refrain",
         "label": "Chorus",
         "text": "And the angels cry holy\nAll creation cries holy\nYou are lifted high, holy\nHoly forever"
-      },
-      {
-        "type": "verse",
-        "label": "Chorus",
-        "text": "Hear Your people sing holy\nTo the King of kings, holy\nYou will always be holy\nHoly forever"
-      },
-      {
-        "type": "verse",
-        "label": "Bridge",
-        "text": "Your name is the highest\nYour name is the greatest\nYour name stand above them all"
-      },
-      {
-        "type": "verse",
-        "label": "Bridge",
-        "text": "All thrones and dominions\nAll powers and positions\nYour name stands above them all"
-      },
-      {
-        "type": "verse",
-        "label": "Chorus",
-        "text": "And the angels cry holy\nAll creation cries holy\nYou are lifted high, holy\nHoly forever…"
-      },
-      {
-        "type": "verse",
-        "label": "Bridge",
-        "text": "Your name is the highest\nYour name is the greatest\nYour name stands above them all"
       }
     ]
   },
   {
     "id": 3,
-    "name": "Lord I lift your name on High",
+    "name": "Lord I Lift Your Name on High",
     "author": null,
     "key": null,
     "lyrics": [
       {
         "type": "verse",
         "label": "1",
-        "text": "Lord, I lift Your name on high\nLord, I love to sing Your praises\nI'm so glad You're in my life\nI'm so glad You came to save us"
+        "text": "Lord I lift Your name on high\nLord, I love to sing Your praises\nI'm so glad You're in my life\nI'm so glad You came to save us"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "You came from heaven to earth\nTo show the way\nFrom the earth to the cross\nMy debt to pay\nFrom the cross to the grave\nFrom the grave to the sky\nLord, I lift Your name on high"
-      },
-      {
-        "type": "verse",
-        "label": "2",
-        "text": "Lord, I lift Your name on high\nLord, I love to sing Your praises\nI'm so glad You're in my life\nI'm so glad You came to save us"
-      },
-      {
-        "type": "bridge",
-        "label": "Bridge",
-        "text": "You came from heaven to earth\nTo show the way\nFrom the earth to the cross\nMy debt to pay\nFrom the cross to the grave\nFrom the grave to the sky\nLord, I lift Your name on high"
-      },
-      {
-        "type": "refrain",
-        "label": "Chorus",
-        "text": "You came from heaven to earth\nTo show the way\nFrom the earth to the cross\nMy debt to pay\nFrom the cross to the grave\nFrom the grave to the sky\nLord, I lift Your name on high"
+        "text": "You came from heaven to earth\nTo show the way\nFrom the earth to the cross\nMy debt to pay\nFrom the cross to the grave\nFrom the grave to the sky\nLord I lift Your name on high"
       }
     ]
   },
   {
     "id": 4,
-    "name": "Power of your Love",
+    "name": "Power of Your Love",
     "author": null,
     "key": null,
     "lyrics": [
       {
         "type": "verse",
         "label": "1",
-        "text": "Lord, I come to You\nLet my heart be changed, renewed\nFlowing from the grace\nThat I found in You\nLord, I've come to know\nThe weaknesses I see in me\nWill be stripped away\nBy the power of Your love"
+        "text": "Lord, I come to You\nLet my heart be changed, renewed\nFlowing from the grace\nThat I found in You\nLord, I've come to know\nThe weaknesses I see in me\nWill be stripped away\nBy the power of Your Love"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "Hold me close\nLet Your love surround me\nBring me near\nDraw me to Your side\nAnd as I wait\nI'll rise up like the eagle\nAnd I will soar with You\nYour Spirit leads me on\nIn the power of Your love"
+        "text": "Hold me close, let Your love surround me\nBring me near, draw me to Your side\nAnd as I wait, I'll rise up like the eagle\nAnd I will soar with You\nYour spirit leads me on\nIn the power of Your love"
       },
       {
         "type": "verse",
@@ -147,30 +102,45 @@
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "Hold me close\nLet Your love surround me\nBring me near\nDraw me to Your side\nAnd as I wait\nI'll rise up like the eagle\nAnd I will soar with You\nYour Spirit leads me on\nIn the power of Your love"
+        "text": "Hold me close, let Your love surround me\nBring me near, draw me to Your side\nAnd as I wait, I'll rise up like the eagle\nAnd I will soar with You\nYour spirit leads me on\nIn the power of Your love"
       }
     ]
   },
   {
     "id": 5,
     "name": "As the Deer Panteth",
-    "author": "Martin Nystrom",
-    "key": "Bb",
+    "author": null,
+    "key": null,
     "lyrics": [
       {
         "type": "verse",
         "label": "1",
-        "text": "As the deer panteth for the water\nSo my soul longeth after Thee\nYou alone are my heart's desire\nAnd I long to worship Thee\nYou alone are my Strength, my Shield\nTo You alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee."
+        "text": "As the deer panteth for the water\nSo my soul longeth after Thee\nYou alone are my heart's desire\nAnd I long to worship Thee"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "You alone are my strength, my shield\nTo You alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee"
       },
       {
         "type": "verse",
         "label": "2",
-        "text": "You're my Friend and You are my Brother\nEven though You are a King\nI love You more than any other\nSo much more than anything\nYou alone are my Strength, my Shield\nTo You alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee."
+        "text": "You're my Friend and You are my Brother\nEven though You are a King\nI love You more than any other\nSo much more than anything"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "You alone are my strength, my shield\nTo You alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee"
       },
       {
         "type": "verse",
         "label": "3",
-        "text": "I want You more than gold or silver\nOnly You can satisfy\nYou alone are the real joy-giver\nAnd the apple of my eye\nYou alone are my Strength, my Shield\nTo You alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee."
+        "text": "I want You more than gold or silver\nOnly You can satisfy\nYou alone are the real joy-giver\nAnd the apple of my eye"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "You alone are my strength, my shield\nTo You alone may my spirit yield\nYou alone are my heart's desire\nAnd I long to worship Thee"
       }
     ]
   },
@@ -183,22 +153,22 @@
       {
         "type": "verse",
         "label": "1",
-        "text": "Hide me now\nUnder Your wings\nCover me\nWithin Your mighty hand"
+        "text": "Hide me now, under Your wings\nCover me, within Your mighty hands"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "When the oceans rise and thunders roar\nI will soar with You above the storm\nFather, You are King over the flood\nI will be still, know You are God"
+        "text": "When the oceans rise, and thunders roar\nI will soar with You above the storm\nFather, You are King, over the flood\nI will be still\nAnd know You are God"
       },
       {
         "type": "verse",
         "label": "2",
-        "text": "Find rest, my soul\nIn Christ alone\nKnow His power\nIn quietness and trust"
+        "text": "Find rest, my soul, in Christ alone\nKnow His power, in quietness and trust"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "When the oceans rise and thunders roar\nI will soar with You above the storm\nFather, You are king over the flood\nI will be still, know You are God"
+        "text": "When the oceans rise, and thunders roar\nI will soar with You above the storm\nFather, You are King, over the flood\nI will be still\nAnd know You are God"
       }
     ]
   },
@@ -247,29 +217,39 @@
   },
   {
     "id": 8,
-    "name": "Shine Jesus Shine",
+    "name": "Shine, Jesus, Shine",
     "author": null,
     "key": null,
     "lyrics": [
       {
         "type": "verse",
         "label": "1",
-        "text": "Lord, the light of Your love is shining,\nIn the midst of the darkness, shining,\nJesus, Light of the World,\nshine upon us,\nSet us free by the truth\nYou now bring us,\nShine on me, shine on me."
+        "text": "Lord, the light of Your love is shining\nIn the midst of the darkness, shining\nJesus, light of the world, shine upon us\nSet us free by the truth You now bring us\nShine on me, shine on me"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "Shine, Jesus shine,\nFill this land with the Father’s glory,\nBlaze, Spirit blaze,\nSet our hearts on fire.\nFlow, river fl ow,\nFlood the nations with grace and mercy,\nSend forth Your word,\nLord, and let there be light."
+        "text": "Shine, Jesus, shine\nFill this land with the Father's glory\nBlaze, Spirit, blaze\nSet our hearts on fire\nFlow, river, flow\nFlood the nations with grace and mercy\nSend forth your word\nLord, and let there be light"
       },
       {
         "type": "verse",
         "label": "2",
-        "text": "Lord, I come to Your awesome presence,\nFrom the shadows into Your radiance,\nBy the blood I may enter Your brightness,\nSearch me, try me, consume all my darkness,\nShine on me, shine on me."
+        "text": "Lord, I come to Your awesome presence\nFrom the shadows into Your radiance\nBy the blood I may enter Your brightness\nSearch me, try me, consume all my darkness\nShine on me, shine on me"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "Shine, Jesus shine,\nFill this land with the Father’s glory,\nBlaze, Spirit blaze,\nSet our hearts on fire.\nFlow, river flow,\nFlood the nations with grace and mercy,\nSend forth Your word,\nLord, and let there be light."
+        "text": "Shine, Jesus, shine\nFill this land with the Father's glory\nBlaze, Spirit, blaze\nSet our hearts on fire\nFlow, river, flow\nFlood the nations with grace and mercy\nSend forth your word\nLord, and let there be light"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "As we gaze on Your kingly brightness\nSo our faces display Your likeness\nEver changing from glory to glory\nMirrored here may our lives tell Your story\nShine on me, shine on me"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Shine, Jesus, shine\nFill this land with the Father's glory\nBlaze, Spirit, blaze\nSet our hearts on fire\nFlow, river, flow\nFlood the nations with grace and mercy\nSend forth your word\nLord, and let there be light"
       }
     ]
   },
@@ -282,22 +262,22 @@
       {
         "type": "verse",
         "label": "1",
-        "text": "Above all powers\nabove all kings\nAbove all nature\nand all created things\nAbove all wisdom\nand all the ways of man\nYou were here\nbefore the world began\n\nAbove all kingdoms\nabove all thrones\nAbove all wonders\nthe world has ever known\nAbove all wealth\nand treasures of the earth\nThere’s no way to measure\nwhat You’re worth"
+        "text": "Above all powers\nAbove all kings\nAbove all nature and all created things\nAbove all wisdom and all the ways of men\nYou are here before the world began"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "Crucified laid behind a stone\nYou lived to die rejected and alone\nLike a rose trampled on the ground\nYou took the fall and thought of me\nAbove all"
+        "text": "Crucified, laid behind the stone\nYou lived to die\nRejected and alone\nLike a rose trampled on the ground\nYou took the fall\nAnd thought of me\nAbove all"
       },
       {
         "type": "verse",
         "label": "2",
-        "text": "Above all powers\nabove all kings\nAbove all nature\nand all created things\nAbove all wisdom\nand all the ways of man\nYou were here\nbefore the world began\n\nAbove all kingdoms\nabove all thrones\nAbove all wonders\nthe world has ever known\nAbove all wealth\nand treasures of the earth\nThere’s no way to measure\nwhat You’re worth"
+        "text": "Above all kingdoms\nAbove all thrones\nAbove all wonders and the world has ever known\nAbove all wealth and treasures of the earth\nThere's no way to measure what You're worth"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "Crucified laid behind a stone\nYou lived to die rejected and alone\nLike a rose trampled on the ground\nYou took the fall and thought of me\nAbove all"
+        "text": "Crucified, laid behind the stone\nYou lived to die\nRejected and alone\nLike a rose trampled on the ground\nYou took the fall\nAnd thought of me\nAbove all"
       }
     ]
   },
@@ -308,95 +288,1047 @@
     "key": null,
     "lyrics": [
       {
-        "type": "VERSE",
+        "type": "verse",
         "label": "1",
-        "text": "I love You, Lord\nFor Your mercy never fails me\nAll my days, I've been held in Your hands\nFrom the moment that I wake up\nUntil I lay my head\nOh, I will sing of the goodness of God"
+        "text": "Come, you weary heart, now to Jesus\nCome, you anxious soul, now and see\nThere is perfect love and comfort in your tears\nRest here in His wondrous peace"
       },
       {
         "type": "refrain",
-        "label": "CHORUS",
-        "text": "'Cause all my life You have been faithful\nAnd all my life You have been so, so good\nWith every breath that I am able\nOh, I will sing of the goodness of God"
+        "label": "Chorus",
+        "text": "Oh the Goodness, the Goodness of Jesus\nSatisfied, He is all that I need\nMay it be, come what may, that I rest all my days\nIn the Goodness of Jesus"
       },
       {
-        "type": "VERSE",
+        "type": "verse",
         "label": "2",
-        "text": "I love Your voice\nYou have led me through the fire\nIn darkest night\nYou are close like no other\nI've known You as a Father\nI've known You as a Friend\nAnd I have lived in the goodness of God"
+        "text": "Come find what this world cannot offer\nCome and find your joy here complete\nTaste the living water, never thirst again\nRest here in His wondrous peace"
       },
       {
-        "type": "bridge",
-        "label": "Bridge (x2)",
-        "text": "Your goodness is running after,\nit's running after me\nYour goodness is running after,\nit's running after me\nWith my life laid down, I surrendered now\nI give You everything\nYour goodness is running after,\nit's running after me"
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Oh the Goodness, the Goodness of Jesus\nSatisfied, He is all that I need\nMay it be, come what may, that I rest all my days\nIn the Goodness of Jesus"
       },
       {
         "type": "verse",
         "label": "3",
-        "text": "All my life You have been faithful\nAll my life You have been so, so good\nWith every breath that I am able \nOh, I will sing of the goodness of God"
+        "text": "Come and find your hope now in Jesus\nHe is all He said He would be\nGrace is overflowing from the Saviour's heart\nRest here in His wondrous peace"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Oh the Goodness, the Goodness of Jesus\nSatisfied, He is all that I need\nMay it be, come what may, that I rest all my days\nIn the Goodness of Jesus"
       }
     ]
   },
   {
     "id": 11,
-    "name": "In Christ alone",
+    "name": "In Christ Alone",
     "author": null,
     "key": null,
     "lyrics": [
       {
         "type": "verse",
         "label": "1",
-        "text": "In Christ alone, my hope is found\nHe is my light, my strength, my song\nThis Cornerstone, this solid ground\nFirm through the fiercest drought and storm\n\nWhat heights of love, what depths of peace\nWhen fears are stilled, when strivings cease\nMy Comforter, my All in All\nHere in the love of Christ I stand\n\nIn Christ alone, who took on flesh\nFullness of God in helpless babe\nThis gift of love and righteousness\nScorned by the ones He came to save\n\n'Til on that cross as Jesus died\nThe wrath of God was satisfied\nFor every sin on Him was laid\nHere in the death of Christ I live\n\nOh-oh-oh-oh\nOh-oh-oh-oh\nOh-oh-oh-oh\nOh-oh-oh-oh\n\nThere in the ground His body lay\nLight of the world by darkness slain\nThen bursting forth in glorious day\nUp from the grave, He rose again\n\nAnd as He stands in victory\nSin's curse has lost its grip on me\nX2 For I am His and He is mine\nBought with the precious blood of Christ x2"
+        "text": "In Christ alone, my hope is found\nHe is my light, my strength, my song\nThis cornerstone, this solid ground\nFirm through the fiercest drought and storm\nWhat heights of love, what depths of peace\nWhen fears are stilled, when strivings cease\nMy Comforter, my All in All\nHere in the love of Christ I stand"
       },
       {
         "type": "verse",
         "label": "2",
-        "text": "What heights of love, what depths of peace\nWhen fears are stilled, when strivings cease\nMy Comforter, my All in All\nHere in the love of Christ I stand"
+        "text": "In Christ alone, who took on flesh\nFullness of God in helpless babe\nThis gift of love and righteousness\nScorned by the ones He came to save\n'Til on the cross as Jesus died\nThe wrath of God was satisfied\nFor every sin on Him was laid\nHere in the death of Christ I live"
       },
       {
         "type": "verse",
         "label": "3",
-        "text": "In Christ alone, who took on flesh\nFullness of God in helpless babe\nThis gift of love and righteousness\nScorned by the ones He came to save"
+        "text": "There in the ground His body lay\nLight of the world by darkness slain\nThen bursting forth in glorious day\nUp from the grave, He rose again\nAnd as He stands in victory\nSin's curse has lost its grip on me\nFor I am His and He is mine\nBought with the precious blood of Christ"
       },
       {
         "type": "verse",
         "label": "4",
-        "text": "'Til on that cross as Jesus died\nThe wrath of God was satisfied\nFor every sin on Him was laid\nHere in the death of Christ I live\n\nOh-oh-oh-oh\nOh-oh-oh-oh\nOh-oh-oh-oh\nOh-oh-oh-oh"
-      },
-      {
-        "type": "verse",
-        "label": "5",
-        "text": "There in the ground His body lay\nLight of the world by darkness slain\nThen bursting forth in glorious day\nUp from the grave, He rose again"
-      },
-      {
-        "type": "verse",
-        "label": "6",
-        "text": "And as He stands in victory\nSin's curse has lost its grip on me\nX2 For I am His and He is mine\nBought with the precious blood of Christ x2"
+        "text": "No guilt in life, no fear in death\nThis is the power of Christ in me\nFrom life's first cry to final breath\nJesus commands my destiny\nNo power of hell, no scheme of man\nCan ever pluck me from His hand\n'Til He returns or calls me home\nHere in the power of Christ I'll stand"
       }
     ]
   },
   {
     "id": 12,
-    "name": "Here I am to worship",
+    "name": "Here I am to Worship",
     "author": null,
     "key": null,
     "lyrics": [
       {
-        "type": "Verse",
+        "type": "verse",
         "label": "1",
-        "text": "Light of the world,\nYou stepped down into darkness,\nOpened my eyes, let me see\nBeauty that made this heart adore You,\nHope of a life spent with You."
+        "text": "Light of the world\nYou stepped down into darkness\nOpened my eyes let me see\nBeauty that made this heart adore You\nHope of a life spent with You"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "So, here I am to worship,\nHere I am to bow down\nHere I am to say that You're my God!\nYou're altogether lovely, altogether worthy,\nAltogether wonderful to me!"
+        "text": "And here I am to worship\nHere I am to bow down\nHere I am to say that you're my God\nYou're altogether lovely\nAltogether worthy\nAltogether wonderful to me"
       },
       {
-        "type": "Verse",
+        "type": "verse",
         "label": "2",
-        "text": "King of all days,\nOh so highly exalted,\nGlorious in Heaven above,\nHumbly You came to the earth You created,\nAll for love's sake became poor."
+        "text": "King of all days\nOh so highly exalted\nGlorious in heaven above\nHumbly you came to the earth you created\nAll for love's sake became poor"
       },
       {
         "type": "refrain",
         "label": "Chorus",
-        "text": "So, here I am to worship,\nHere I am to bow down\nHere I am to say that You're my God\nYou're altogether lovely, altogether worthy\nAltogether wonderful to me!"
+        "text": "And here I am to worship\nHere I am to bow down\nHere I am to say that you're my God\nYou're altogether lovely\nAltogether worthy\nAltogether wonderful to me"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge (x2)",
+        "text": "I'll never know how much it cost\nTo see my sin, upon that cross"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "And here I am to worship\nHere I am to bow down\nHere I am to say that you're my God\nYou're altogether lovely\nAltogether worthy\nAltogether wonderful to me"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Before the Throne of God Above",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Before the throne of God above\nI have a strong and perfect plea\nA great High Priest whose name is love\nWho ever lives and pleads for me\nMy name is graven on His hands\nMy name is written on His heart\nI know that while in heav'n He stands\nNo tongue can bid me thence depart\nNo tongue can bid me thence depart"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "When Satan tempts me to despair\nAnd tells me of the guilt within\nUpward I look and see Him there\nWho made an end to all my sin\nBecause the sinless Savior died\nMy sinful soul is counted free\nFor God the Just is satisfied\nTo look on Him and pardon me\nTo look on Him and pardon me"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Behold Him there, the risen Lamb\nMy perfect, spotless Righteousness\nThe great unchangeable I AM\nThe King of glory and of grace\nOne with Himself, I cannot die\nMy soul is purchased by His blood\nMy life is hid with Christ on high\nWith Christ my Savior and my God\nWith Christ my Savior and my God"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Behold What Manner of Love",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Behold what manner of love\nThe Father has given unto us\nBehold what manner of love\nThe Father has given unto us\nThat we should be called the sons of God\nThat we should be called the sons of God"
+      },
+      {
+        "type": "verse",
+        "label": "2 (canon)",
+        "text": "Behold what manner of love\nThe Father has given unto us\nBehold what manner of love\nThe Father has given unto us\nThat we should be called - (behold what manner of love the Father has -)\nThe sons of God ( -given unto us)\nThat we should be - (behold what manner of love the Father has-)\nCalled the sons of God (-given unto us)"
+      },
+      {
+        "type": "verse",
+        "label": "2 (canon, 2nd pass)",
+        "text": "Behold what manner of love (that we-)\nThe Father has given unto us (-should be called the sons of God)\nBehold what manner of love (that we-)\nThe Father has given unto us (-should be called the sons of God)\nThat we should be called - (behold what manner of love the Father has -)\nThe sons of God ( -given unto us)\nThat we should be - (behold what manner of love the Father has-)\nCalled the sons of God (-given unto us)"
+      },
+      {
+        "type": "verse",
+        "label": "Ending",
+        "text": "That we should be called the sons of God"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Blessed Be the Name of the Lord",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Blessed be Your name\nIn the land that is plentiful\nWhere Your streams of abundance flow\nBlessed be Your name"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Blessed be Your name\nWhen I'm found in the desert place\nThough I walk through the wilderness\nBlessed be Your name"
+      },
+      {
+        "type": "refrain",
+        "label": "Pre-Chorus",
+        "text": "Every blessing You pour out\nI'll turn back to praise\nWhen the darkness closes in, Lord\nStill I will say"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Blessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Blessed be Your name\nWhen the sun's shining down on me\nWhen the world's all as it should be\nBlessed be Your name"
+      },
+      {
+        "type": "refrain",
+        "label": "Pre-Chorus",
+        "text": "Every blessing You pour out\nI'll turn back to praise\nWhen the darkness closes in, Lord\nStill I will say"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Blessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name"
+      },
+      {
+        "type": "verse",
+        "label": "4",
+        "text": "Blessed be Your name\nOn the road marked with suffering\nThough there's pain in the offering\nBlessed be Your name"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge",
+        "text": "You give and take away\nYou give and take away\nMy heart will choose to say\nLord, blessed be Your name\nYou give and take away\nYou give and take away\nMy heart will choose to say\nLord, blessed be Your name"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Blessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Do Lord O Do Lord",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Do Lord, O, Do Lord, O do remember me,\nDo Lord, O, Do Lord, O do remember me,\nDo Lord, O, Do Lord, O do remember me,\nWay beyond the blue."
+      },
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "I've got a home in glory land that out-shines the sun.\nI've got a home in glory land that out-shines the sun.\nI've got a home in glory land that out-shines the sun.\nWay beyond the blue."
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Do Lord, O, Do Lord, O do remember me,\nDo Lord, O, Do Lord, O do remember me,\nDo Lord, O, Do Lord, O do remember me,\nWay beyond the blue."
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "I took Jesus as my Savior, You take Him too.\nI took Jesus as my Savior, You take Him too.\nI took Jesus as my Savior, You take Him too.\nWay beyond the blue."
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Do Lord, O, Do Lord, O do remember me,\nDo Lord, O, Do Lord, O do remember me,\nDo Lord, O, Do Lord, O do remember me,\nWay beyond the blue."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Draw Me Close to You",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Draw me close to you\nNever let me go\nI lay it all down again\nTo hear You say that I'm Your friend"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "You're all I want\nYou're all I've ever needed\nYou're all I want\nHelp me know You are here"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "You are my desire\nNo one else will do\nNothing else could take Your place\nTo feel the warmth of Your embrace\nHelp me find the way\nBring me back to You"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "You're all I want\nYou're all I've ever needed\nYou're all I want\nHelp me know You are here"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "El Shaddai",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Through Your love and through the ram\nYou saved the son of Abraham\nThrough the power of Your hand\nTurned the sea into dry land\nTo the outcast on her knees\nYou were the God who really sees\nAnd by Your might\nYou set Your children free"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "El Shaddai, El Shaddai,\nEl Elyon na Adonai\nAge to age You're still the same\nBy the power of the name\nEl Shaddai, El Shaddai\nErkamka na Adonai\nWe will praise and lift You high, El Shaddai"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Through the years You made it clear\nThat the time of Christ was near\nThough the people couldn't see\nWhat Messiah ought to be\nThough Your Word contained the plan\nThey just could not understand\nYour most awesome work was done\nThrough the frailty of Your Son"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "El Shaddai, El Shaddai,\nEl Elyon na Adonai\nAge to age You're still the same\nBy the power of the name\nEl Shaddai, El Shaddai\nErkamka na Adonai\nWe will praise and lift You high, El Shaddai"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Great are You Lord (most Holy Lord)",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Holy Lord, most holy Lord\nYou alone are worthy of my praise\nO holy Lord, most holy Lord\nWith all of my heart I sing"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Great are You Lord\nWorthy of praise\nHoly and true\nGreat are You Lord\nMost holy Lord"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "He's Able",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "(He's able, He's able,\nI know He's able,\nI know my Lord is able\nTo carry me through.) x2"
+      },
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "He healed the broken-hearted\nAnd set the captive free,\nHe made the lame to walk again\nAnd caused the blind to see."
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "(He's able, He's able,\nI know He's able,\nI know my Lord is able\nTo carry me through.) x2"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "How Deep the Father's Love for Us",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "How deep the Father's love for us,\nHow vast beyond all measure,\nThat He should give His only Son\nTo make a wretch His treasure.\nHow great the pain of searing loss -\nThe Father turns His face away,\nAs wounds which mar the Chosen One\nBring many sons to glory."
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Behold the man upon a cross,\nMy sin upon His shoulders;\nAshamed, I hear my mocking voice\nCall out among the scoffers.\nIt was my sin that held Him there\nUntil it was accomplished;\nHis dying breath has brought me life -\nI know that it is finished."
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "I will not boast in anything,\nNo gifts, no power, no wisdom;\nBut I will boast in Jesus Christ,\nHis death and resurrection.\nWhy should I gain from His reward?\nI cannot give an answer;\nBut this I know with all my heart -\nHis wounds have paid my ransom."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "How Great is Our God",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "The splendor of a King\nClothed in majesty\nLet all the earth rejoice\nAll the earth rejoice\nHe wraps Himself in light\nAnd darkness tries to hide\nAnd trembles at His voice\nTrembles at His voice"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "How great is our God\nSing with me\nHow great is our God\nAnd all will see how great\nHow great is our God"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Age to age He stands\nAnd time is in His hands\nBeginning and the end\nBeginning and the end\nThe Godhead three in one\nFather, Spirit, Son\nLion and the Lamb\nLion and the Lamb"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "How great is our God\nSing with me\nHow great is our God\nAnd all will see how great\nHow great is our God"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge",
+        "text": "Name above all names\nYou are worthy of all praise\nMy heart will sing how great\nHow great is our God"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "How great is our God\nSing with me\nHow great is our God\nAnd all will see how great\nHow great is our God"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "In His Time",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "In His time, in His time\nHe makes all things beautiful\nIn His time\nLord please show me everyday\nAs You're teaching me Your way\nThat You do just what You say\nIn Your time"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "In Your time, In Your time\nYou make all things beautiful\nIn Your time\nLord my life to You I bring\nMay each song I have to sing\nBe to You a lovely thing\nIn Your time\nLord please show me everyday\nAs You're teaching me Your way\nThat You do just what You say\nIn Your time"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "In Your time (in Your time)\nIn Your time (in Your time Lord)\nYou make all things beautiful\nIn Your time (in Your time)\nLord my life to You I bring\nMay each song I have to sing\nBe to You a lovely thing\nIn Your time\nBe to You a lovely thing\nIn Your time"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "In Moments Like These",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "In moment like this, I sing out a song\nI sing out a love song to Jesus\nIn moment like this, I lift up my hands\nI lift up my hands to the Lord"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Singing I love You Lord\nSinging I love You Lord\nSinging I love You Lord\nI love You"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "I've Got Peace Like a River",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "I've got peace like a river\nI've got peace like a river\nI've got peace like a river, in my soul.\nI've got peace like a river\nI've got peace like a river\nI've got peace like a river in my soul."
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "I've got love like a river\nI've got love like a river\nI've got love like a river in my soul.\nI've got love like a river\nI've got love like a river\nI've got love like a river in my soul."
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "I've got joy like a river\nI've got joy like a river\nI've got joy like a river in my soul.\nI've got joy like a river\nI've got joy like a river\nI've got joy like a river in my soul."
+      },
+      {
+        "type": "verse",
+        "label": "4",
+        "text": "I've got peace, love, joy like a river\nI've got peace, love, joy like a river\nI've got peace, love, joy like a river in my soul.\nI've got peace, love, joy like a river\nI've got peace, love, joy like a river\nI've got peace, love, joy like a river in my soul."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Listen to Our Hearts",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "How do you explain\nHow do you describe\nA love that goes from East to West\nAnd runs as deep as it is wide\nYou know all our hopes, Lord\nYou know all our fears\nAnd words cannot express the love we feel\nBut we long for You to hear"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "So listen to our hearts,\nHear our spirits sing\nA song of praise that flows\nFor those You have redeemed\nAnd we will use the words we know\nTo tell you what an awesome God You are\nBut when words are not enough\nTo tell you of our Love\nJust listen to our hearts"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "If words could fall like rain\nFrom these lips of mine\nAnd if I had a thousand years\nI would still run out of time\nSo if You listen to my heart\nEvery beat will say\nThank you for the Life\nThank you for the Truth\nThank you for the Way"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "So listen to our hearts,\nHear our spirits sing\nA song of praise that flows\nFor those You have redeemed\nAnd we will use the words we know\nTo tell you what an awesome God You are\nBut when words are not enough\nTo tell you of our Love\nJust listen to our hearts"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Lord I Give You My Heart",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "This is my desire to honor You\nLord with all my heart\nI worship You\nAll I have within me\nI give You praise\nAll that I adore\nIs in You"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Lord I give You my heart\nI give You my soul\nI live for You alone\nEvery breath that I take, every moment I'm awake\nLord have Your way in me"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Majesty, Worship His Majesty",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Majesty, worship His Majesty\nUnto Jesus be all glory, honor, and praise."
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Majesty, kingdom authority\nFlow from His throne unto His own, His anthems raise."
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "So exalt, lift up on high\nThe Name of Jesus\nMagnify, come glorify\nChrist Jesus the King"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Majesty, worship His Majesty\nJesus who died, now glorified, King of all Kings."
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "So exalt, lift up on high\nThe Name of Jesus\nMagnify, come glorify\nChrist Jesus the King"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Mighty to Save",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Everyone needs compassion\nLove that's never failing\nLet mercy fall on me\nEveryone needs forgiveness\nThe kindness of a Saviour\nThe Hope of nations"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Saviour, He can move the mountains\nMy God is mighty to save\nHe is mighty to save\nForever, Author of salvation\nHe rose and conquered the grave\nJesus conquered the grave"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "So take me as You find me\nAll my fears and failures\nFill my life again\nI give my life to follow\nEverything I believe in\nNow I surrender"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Saviour, He can move the mountains\nMy God is mighty to save\nHe is mighty to save\nForever, Author of salvation\nHe rose and conquered the grave\nJesus conquered the grave"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge",
+        "text": "Shine Your light and\nLet the whole world see\nWe're singing\nFor the glory of the risen King"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Saviour, He can move the mountains\nMy God is mighty to save\nHe is mighty to save\nForever, Author of salvation\nHe rose and conquered the grave\nJesus conquered the grave"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "O Come to the Altar",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Are you hurting and broken within?\nOverwhelmed by the weight of your sin?\nJesus is calling\nHave you come to the end of yourself?\nDo you thirst for a drink from the well?\nJesus is calling"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "O come to the altar\nThe Father's arms are open wide\nForgiveness was bought with\nThe precious blood of Jesus Christ"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Leave behind your regrets and mistakes\nCome today, there's no reason to wait\nJesus is calling\nBring your sorrows and trade them for joy\nFrom the ashes, a new life is born\nJesus is calling"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "O come to the altar\nThe Father's arms are open wide\nForgiveness was bought with\nThe precious blood of Jesus Christ"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Open the Eyes of My Heart",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Open the eyes of my heart, Lord\nOpen the eyes of my heart\nI want to see You\nI want to see You\nOpen the eyes of my heart, Lord\nOpen the eyes of my heart\nI want to see You\nI want to see You"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "To see You high and lifted up\nShinin' in the light of Your glory\nPour out Your power and love\nAs we sing holy, holy, holy"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Pass It On",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "It only takes a spark, to get a fire going\nAnd soon all those around\nCan warm up in its glowing\nThat's how it is with God's love\nOnce you've experienced it\nYou spread His love to everyone\nYou want to pass it on"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "What a wondrous time is spring\nWhen all the trees are budding\nThe birds begin to sing\nThe flowers start their blooming\nThat's how it is with God's love\nOnce you've experienced it\nYou want to sing it's fresh like spring\nYou want to pass it on"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "I wish for you my friend\nThis happiness that I've found\nYou can depend on Him\nIt matters not where you're bound\nI'll shout it from the mountain top\nI want my world to know\nThe Lord of love has come to me\nI want to pass it on"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Refiner's Fire",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Purify my heart, let me be as gold and precious silver\nPurify my heart, let me be as gold, pure gold"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Refiner's fire\nMy heart's one desire\nIs to be holy, set apart for You, Lord\nI choose to be holy, set apart for You\nMy Master\nReady to do Your will"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Purify my heart, cleanse me from within\nAnd make me holy\nPurify my heart, cleanse me from my sin\nDeep within"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Refiner's fire\nMy heart's one desire\nIs to be holy, set apart for You, Lord\nI choose to be holy, set apart for You\nMy Master\nReady to do Your will"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Seek Ye First the Kingdom of God",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Seek ye first the kingdom of God\nAnd His righteousness\nAnd all these things shall be added unto you\nHallelu, hallelujah!"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Hallelujah! Hallelujah!\nHallelujah! Hallelu, hallelujah!"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Ask, and it shall be given unto you\nSeek and you shall find\nKnock, and it shall be opened unto you\nHallelu, hallelujah!"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Hallelujah! Hallelujah!\nHallelujah! Hallelu, hallelujah!"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Man shall not live by bread alone,\nBut by every word\nThat proceeds out from the mouth of God\nHallelu, hallelujah!"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Hallelujah! Hallelujah!\nHallelujah! Hallelu, hallelujah!"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Shout to the Lord",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "My Jesus, my Savior\nLord, there is none like You\nAll of my days, I want to praise\nThe wonders of Your mighty love"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "My comfort, my shelter\nTower of refuge and strength\nLet every breath, all that I am\nNever cease to worship You"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Shout to the Lord\nAll the earth, let us sing\nPower and majesty, praise to the King\nMountains bow down and the seas will roar\nAt the sound of Your name\nI sing for joy at the work of Your hands\nForever I'll love You, forever I'll stand\nNothing compares to the promise I have in You"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Side by Side We Stand",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Side by side we stand\nAwaiting God's command\nWorshipping the saving King\nLiving by His grace\nAnd moving on in faith\nJesus Himself will see us through"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Meet me in heaven\nWe'll join hands together\nMeet me by the Savior's side\nI'll meet you in heaven\nWe'll sing songs together\nBrothers and sisters, I'll be there\n(Praise the Lord we all will be there)"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Soldiers all are we\nTo go where Jesus leads\nWe'll fight the foe\nAnd we will overcome\nHeaven is our goal\nTo save every soul\nPray that we all will be there"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Meet me in heaven\nWe'll join hands together\nMeet me by the Savior's side\nI'll meet you in heaven\nWe'll sing songs together\nBrothers and sisters, I'll be there\n(Praise the Lord we all will be there)"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Speak O Lord",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Speak, O Lord, as we come to You\nTo receive the food of Your holy Word\nTake Your truth, plant it deep in us\nShape and fashion us in Your likeness\nThat the light of Christ might be seen today\nIn our acts of love and our deeds of faith\nSpeak, O Lord, and fulfill in us\nAll Your purposes for Your glory"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Teach us, Lord, full obedience\nHoly reverence, true humility\nTest our thoughts and our attitudes\nIn the radiance of Your purity\nCause our faith to rise, cause our eyes to see\nYour majestic love and authority\nWords of pow'r that can never fail\nLet their truth prevail over unbelief"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Speak, O Lord, and renew our minds\nHelp us grasp the heights of Your plans for us\nTruths unchanged from the dawn of time\nThat will echo down through eternity\nAnd by grace, we'll stand on Your promises\nAnd by faith, we'll walk as You walk with us\nSpeak, O Lord,'til Your church is built\nAnd the earth is filled with Your glory"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "The Blessing",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "(The Lord bless you and keep you\nMake His face shine upon you\nAnd be gracious to you\nThe Lord turn His face toward you\nAnd give you peace) x2"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Amen, Amen, Amen\nAmen, Amen, Amen"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "The Lord bless you and keep you\nMake His face shine upon you\nAnd be gracious to you\nThe Lord turn His face toward you\nAnd give you peace"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Amen, Amen, Amen\nAmen, Amen, Amen"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge",
+        "text": "May His favor be upon you\nAnd the thousand generations\nAnd your family and your children\nAnd their children,\nAnd their children\nMay His presence go before you\nAnd behind you, and beside you\nAll around you, and within you\nHe is with you, He is with you\nIn the morning, in the evening\nIn your coming, and your going\nIn your weeping, and rejoicing\nHe is for you, He is for you"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Amen, Amen, Amen\nAmen, Amen, Amen"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "This is My Desire",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "This is my desire to honor You\nLord, with all my heart\nI worship You\nAll I have within me\nI give You praise\nAll that I adore\nIs in You"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Lord, I give You my heart\nI give You my soul\nI live for You alone\nAnd every breath that I take\nEvery moment I'm awake\nLord, have Your way in me"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "What a Beautiful Name It is",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "You were the Word at the beginning\nOne with God the Lord Most High\nYour hidden glory in creation\nNow revealed in You our Christ"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "What a beautiful Name it is\nWhat a beautiful Name it is\nThe Name of Jesus Christ my King\nWhat a beautiful Name it is\nNothing compares to this\nWhat a beautiful Name it is\nThe Name of Jesus"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "You didn't want heaven without us\nSo Jesus You brought heaven down\nMy sin was great Your love was greater\nWhat could separate us now"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "What a beautiful Name it is\nWhat a beautiful Name it is\nThe Name of Jesus Christ my King\nWhat a beautiful Name it is\nNothing compares to this\nWhat a beautiful Name it is\nThe Name of Jesus"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge",
+        "text": "Death could not hold You\nThe veil tore before You\nYou silence the boast of sin and grave\nThe heavens are roaring\nThe praise of Your glory\nFor You are raised to life again"
+      },
+      {
+        "type": "bridge",
+        "label": "Bridge",
+        "text": "You have no rival\nYou have no equal\nNow and forever God You reign\nYours is the kingdom\nYours is the glory\nYours is the Name above all names"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "What a beautiful Name it is\nWhat a beautiful Name it is\nThe Name of Jesus Christ my King\nWhat a beautiful Name it is\nNothing compares to this\nWhat a beautiful Name it is\nThe Name of Jesus"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Worthy is the Lamb",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Thank you for the cross Lord\nThank you for the price You paid\nBearing all my sin and shame\nIn love You came\nAnd gave amazing grace"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Thank you for this love Lord\nThank you for the nail pierced hands\nWashed me in\nYour cleansing flow\nNow all I know\nYour forgiveness and embrace"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Worthy is the Lamb\nSeated on the throne\nCrown You now with many crowns\nYou reign victorious\nHigh and lifted up\nJesus Son of God\nThe Darling of Heaven crucified\nWorthy is the Lamb\nWorthy is the Lamb"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Yet Not I but Through Christ in Me",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "What gift of grace is Jesus my redeemer\nThere is no more for heaven now to give\nHe is my joy, my righteousness, and freedom\nMy steadfast love, my deep and boundless peace\nTo this I hold, my hope is only Jesus\nFor my life is wholly bound to His\nOh how strange and divine, I can sing, \"All is mine\"\nYet not I, but through Christ in me"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "The night is dark but I am not forsaken\nFor by my side, the Saviour He will stay\nI labor on in weakness and rejoicing\nFor in my need, His power is displayed\nTo this I hold, my Shepherd will defend me\nThrough the deepest valley He will lead me\nOh the night has been won, and I shall overcome\nYet not I, but through Christ in me"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "No fate I dread, I know I am forgiven\nThe future sure, the price it has been paid\nFor Jesus bled and suffered for my pardon\nAnd He was raised to overthrow the grave\nTo this I hold, my sin has been defeated\nJesus now and ever is my plea\nOh the chains are released, I can sing \"I am free\"\nYet not I, but through Christ in me"
+      },
+      {
+        "type": "verse",
+        "label": "4",
+        "text": "With every breath I long to follow Jesus\nFor He has said that He will bring me home\nAnd day by day I know He will renew me\nUntil I stand with joy before the throne\nTo this I hold, my hope is only Jesus\nAll the glory evermore to Him\nWhen the race is complete, still my lips shall repeat\nYet not I, but through Christ in me"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "You are Great (You Deserve the Glory)",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "You deserve the glory and the honor,\nI lift my hands in worship and I bless Your Holy Name.\nYou deserve the glory and the honor,\nI lift my hands in worship and I bless Your Holy Name."
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "You are great, You do miracles so great.\nThere is no one else like You,\nThere is no one else like You."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "You are Holy (Prince of Peace)",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1 (echo)",
+        "text": "You are holy (You are holy)\nYou are mighty (You are mighty)\nYou are worthy (You are worthy)\nWorthy of praise (Worthy of praise)\nI will follow (I will follow)\nI will listen (I will listen)\nI will love You (I will love You)\nAll of my days (All of my days)"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus (canon)",
+        "text": "I will sing to and worship\n(You are Lord of lords, You are King of kings)\nThe King who is worthy\n(You are Mighty God, Lord of everything)\nI will love and adore Him\n(You're Emmanuel, You're the Great I Am)\nAnd I will bow down before Him\n(You're the Prince of Peace, who is the Lamb)"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus (canon - response)",
+        "text": "And I will sing to and worship\n(You're my living God, You're my saving grace)\nThe King who is worthy\n(You will reign forever, You are ancient of days)\nAnd I will love and adore Him\n(You are Alpha, Omega, Beginning and End)\nAnd bow down before Him\n(You're my Savior, Messiah, Redeemer, and Friend)"
+      },
+      {
+        "type": "verse",
+        "label": "Together",
+        "text": "You're my Prince of Peace and I will live my life for you"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "You are My Hiding Place",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "You are my hiding place\nYou always fill my heart with songs of deliverance\nWhenever I am afraid\nI will trust in You\nI will trust in You\nLet the weak say I am strong\nIn the strength of the Lord"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "You are My All in All",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "You are my strength when I'm weak\nYou are the treasure that I seek\nYou are my all in all"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Seeking You as a precious jewel\nLord to give up I'd be a fool\nYou are my all in all"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Jesus Lamb of God\nWorthy is the name\nJesus Lamb of God\nWorthy is Your name"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Taking my sin, my cross, my shame\nRising again I'll bless Your name\nYou are my all in all"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Jesus Lamb of God\nWorthy is the name\nJesus Lamb of God\nWorthy is Your name"
+      },
+      {
+        "type": "verse",
+        "label": "4",
+        "text": "When I fall down You pick me up\nWhen I am dry You fill my cup\nYou are my all in all"
+      },
+      {
+        "type": "refrain",
+        "label": "Chorus",
+        "text": "Jesus Lamb of God\nWorthy is the name\nJesus Lamb of God\nWorthy is Your name"
       }
     ]
   }
