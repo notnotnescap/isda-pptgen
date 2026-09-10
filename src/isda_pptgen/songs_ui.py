@@ -72,11 +72,19 @@ else:
 
         col1, col2, col3 = st.columns(3)
         with col1:
-            song_name = st.text_input("Name", value=song.get("name", ""))
+            song_name = st.text_input(
+                "Name", value=song.get("name", ""), key=f"name_{sel_id}"
+            )
         with col2:
-            song_author = st.text_input("Author", value=song.get("author", "") or "")
+            song_author = st.text_input(
+                "Author",
+                value=song.get("author", "") or "",
+                key=f"author_{sel_id}",
+            )
         with col3:
-            song_key = st.text_input("Key", value=song.get("key", "") or "")
+            song_key = st.text_input(
+                "Key", value=song.get("key", "") or "", key=f"key_{sel_id}"
+            )
 
         st.subheader("Lyrics")
         lyrics = song.get("lyrics", [])
@@ -95,23 +103,23 @@ else:
                         b_type = st.text_input(
                             f"Type (verse/refrain/etc) {i}",
                             value=block.get("type", ""),
-                            key=f"type_{i}",
+                            key=f"type_{sel_id}_{i}",
                         )
                     with bc2:
                         b_label = st.text_input(
                             f"Label (1, Chorus, etc) {i}",
                             value=block.get("label", ""),
-                            key=f"label_{i}",
+                            key=f"label_{sel_id}_{i}",
                         )
 
                     b_text = st.text_area(
                         f"Text {i}",
                         value=block.get("text", ""),
-                        key=f"text_{i}",
+                        key=f"text_{sel_id}_{i}",
                         height=250,
                     )
 
-                    if st.button(f"Remove Block {i + 1}", key=f"rm_{i}"):
+                    if st.button(f"Remove Block {i + 1}", key=f"rm_{sel_id}_{i}"):
                         continue  # Skip appending this block
 
                     updated_lyrics.append(
@@ -132,7 +140,9 @@ else:
                 "Paste lyrics below. Use tags like `#verse 1` or `#refrain Chorus` above each paragraph."
             )
             quick_text = st.text_area(
-                "Quick Import Lyrics", height=300, key="quick_import_text"
+                "Quick Import Lyrics",
+                height=300,
+                key=f"quick_import_text_{sel_id}",
             )
 
             if st.button("Import & Replace Lyrics", type="secondary"):
