@@ -735,22 +735,22 @@
       {
         "type": "verse",
         "label": "1",
-        "text": "I've got peace like a river\nI've got peace like a river\nI've got peace like a river, in my soul.\nI've got peace like a river\nI've got peace like a river\nI've got peace like a river in my soul."
+        "text": "I've got peace like a river\nI've got peace like a river\nI've got peace like a river\nIn my soul\nI've got peace like a river\nI've got peace like a river\nI've got peace like a river\nIn my soul"
       },
       {
         "type": "verse",
         "label": "2",
-        "text": "I've got love like a river\nI've got love like a river\nI've got love like a river in my soul.\nI've got love like a river\nI've got love like a river\nI've got love like a river in my soul."
+        "text": "I've got love like an ocean\nI've got love like an ocean\nI've got love like an ocean\nIn my soul\nI've got love like an ocean\nI've got love like an ocean\nI've got love like an ocean\nIn my soul"
       },
       {
         "type": "verse",
         "label": "3",
-        "text": "I've got joy like a river\nI've got joy like a river\nI've got joy like a river in my soul.\nI've got joy like a river\nI've got joy like a river\nI've got joy like a river in my soul."
+        "text": "I've got joy like a fountain\nI've got joy like a fountain\nI've got joy like a fountain\nIn my soul\nI've got joy like a fountain\nI've got joy like a fountain\nI've got joy like a fountain\nIn my soul"
       },
       {
         "type": "verse",
         "label": "4",
-        "text": "I've got peace, love, joy like a river\nI've got peace, love, joy like a river\nI've got peace, love, joy like a river in my soul.\nI've got peace, love, joy like a river\nI've got peace, love, joy like a river\nI've got peace, love, joy like a river in my soul."
+        "text": "I've got peace, love and joy like a river\nI've got peace, love and joy like a river\nI've got peace, love and joy like a river\nIn my soul\nI've got peace, love and joy like a river\nI've got peace, love and joy like a river\nI've got peace, love and joy like a river\nIn my soul"
       }
     ]
   },
@@ -1329,6 +1329,24 @@
         "type": "refrain",
         "label": "Chorus",
         "text": "Jesus Lamb of God\nWorthy is the name\nJesus Lamb of God\nWorthy is Your name"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Walking with Jesus",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Walking with Jesus, walking every day,\nAll along the way, for I am\nWalking with Jesus, walking with Jesus alone."
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "⁠Walking in the sunlight, walking in the shadow,\nWalking every day, all along the way, for I am\nWalking in the sunlight, walking in the shadow,\nWalking with Jesus alone."
       }
     ]
   }
