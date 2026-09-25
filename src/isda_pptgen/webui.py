@@ -27,6 +27,12 @@ PROGRAMS_DIR.mkdir(exist_ok=True)
 MEDIA_DIR = Path("media")
 MEDIA_DIR.mkdir(exist_ok=True)
 
+# Persistent log of Google Sheet fetch issues/warnings.
+# Stored in session_state so it survives Streamlit reruns instead of
+# disappearing after a few seconds like st.toast/st.error do.
+if "fetch_messages" not in st.session_state:
+    st.session_state["fetch_messages"] = []
+
 TEMPLATE_FILE = CONFIG_TEMPLATE
 if not TEMPLATE_FILE.exists():
     TEMPLATE_FILE = Path("build_ws.yml")
@@ -61,24 +67,22 @@ def format_hymn(hymn_num):
 all_hymn_nums = list(hymn_dict.keys())
 hymn_options_with_none = [0] + all_hymn_nums
 
-# --- Auto-Generate Next 2 Saturdays ---
+# --- Auto-Generate This Week's Saturday ---
 today = datetime.date.today()
 days_to_sat = 5 - today.weekday()
 if days_to_sat < 0:
     days_to_sat += 7
 next_sat = today + datetime.timedelta(days=days_to_sat)
-following_sat = next_sat + datetime.timedelta(days=7)
 
-for sat in [next_sat, following_sat]:
-    file_name = f"{sat.isoformat()}_Service.yml"
-    file_path = PROGRAMS_DIR / file_name
-    if not file_path.exists() and TEMPLATE_FILE.exists():
-        shutil.copy(TEMPLATE_FILE, file_path)
-        with open(file_path, "r", encoding="utf-8") as f:
-            conf = yaml.safe_load(f) or {}
-        conf["date"] = sat
-        with open(file_path, "w", encoding="utf-8") as f:
-            yaml.dump(conf, f, default_flow_style=False, sort_keys=False)
+file_name = f"{next_sat.isoformat()}_Service.yml"
+file_path = PROGRAMS_DIR / file_name
+if not file_path.exists() and TEMPLATE_FILE.exists():
+    shutil.copy(TEMPLATE_FILE, file_path)
+    with open(file_path, "r", encoding="utf-8") as f:
+        conf = yaml.safe_load(f) or {}
+    conf["date"] = next_sat
+    with open(file_path, "w", encoding="utf-8") as f:
+        yaml.dump(conf, f, default_flow_style=False, sort_keys=False)
 
 # --- UI Sidebar: Programs List ---
 st.sidebar.header("Upcoming Services")
@@ -171,19 +175,31 @@ st.subheader(f"Service Date: {default_date.strftime('%B %d, %Y')}")
 
 
 def fetch_for_date(d: datetime.date):
-    for fmt in ["%d/%m/%Y", "%d/%m", "%m/%d/%Y", "%m/%d"]:
-        data = fetch_data_for_date(d.strftime(fmt))
-        if data:
-            return data
-    return None
+    import io
+    from contextlib import redirect_stderr, redirect_stdout
+
+    # fetch_data_for_date reports issues (missing values, no data, errors)
+    # via print/traceback. Capture that output and keep it in the persistent
+    # fetch_messages log so it doesn't vanish after a few seconds.
+    buf = io.StringIO()
+    with redirect_stdout(buf), redirect_stderr(buf):
+        for fmt in ["%d/%m/%Y", "%d/%m", "%m/%d/%Y", "%m/%d"]:
+            data = fetch_data_for_date(d.strftime(fmt))
+            if data:
+                break
+    output = buf.getvalue().strip()
+    if output:
+        for line in output.splitlines():
+            if line not in st.session_state["fetch_messages"]:
+                st.session_state["fetch_messages"].append(line)
+    return data
 
 
 def apply_fetched_data(data, keys=None):
     if not data:
-        st.error(
-            "❌ No data found for this date in the Google Sheet. Make sure the date exists."
-        )
-        st.toast("No data found for this date in Google Sheet.", icon="❌")
+        msg = "No data found for this date in the Google Sheet. Make sure the date exists."
+        st.session_state["fetch_messages"].append(msg)
+        st.error(f"❌ {msg}")
         return False
 
     sv = data["service_details"]
@@ -223,6 +239,9 @@ def apply_fetched_data(data, keys=None):
                     )
                     return k
 
+        st.session_state["fetch_messages"].append(
+            f"{context_name} '{val}' not found in the hymn list. Please review."
+        )
         st.toast(f"{context_name} '{val}' not found. Please review.", icon="⚠️")
         return 0
 
@@ -417,6 +436,14 @@ with col_top2:
     with cb2:
         st.button("🗑️ Clear All", key="clear_all_btn")
 
+# Persistent Google Sheet fetch issues/warnings (survive reruns)
+if st.session_state["fetch_messages"]:
+    st.markdown("#### ⚠️ Google Sheet Fetch Issues")
+    for msg in st.session_state["fetch_messages"]:
+        st.warning(msg)
+    if st.button("Clear fetch issues", key="clear_fetch_issues"):
+        st.session_state["fetch_messages"] = []
+        st.rerun()
 
 st.markdown("---")
 

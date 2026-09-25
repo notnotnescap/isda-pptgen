@@ -1,3 +1,4 @@
+import difflib
 import json
 from pathlib import Path
 
@@ -22,11 +23,62 @@ def save_data(file_path, data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+def normalize_name(name):
+    """Lowercase and strip punctuation/spacing for fuzzy title matching."""
+    return "".join(c for c in name.lower() if c.isalnum() or c.isspace()).strip()
+
+
+def find_similar_songs(name, songs, threshold=0.6):
+    """Return songs whose title resembles `name`, best matches first."""
+    norm = normalize_name(name)
+    if not norm:
+        return []
+
+    results = []
+    for s in songs:
+        sname = normalize_name(s.get("name", ""))
+        if not sname:
+            continue
+        if norm == sname or (len(norm) >= 3 and (norm in sname or sname in norm)):
+            score = 1.0
+        else:
+            score = difflib.SequenceMatcher(None, norm, sname).ratio()
+        if score >= threshold:
+            results.append((score, s))
+    results.sort(key=lambda x: -x[0])
+    return results
+
+
+def render_similar_song(score, song, source_label):
+    """Show a similar song with a quick way to view its lyrics."""
+    name = song.get("name", "Untitled")
+    sid = song.get("id", "")
+    author = song.get("author") or ""
+    header = f"{source_label} · {sid} - {name}"
+    if author:
+        header += f" ({author})"
+    header += f"  — match {score:.0%}"
+    with st.expander(header):
+        lyrics = song.get("lyrics", [])
+        if not lyrics:
+            st.caption("(no lyrics)")
+        for block in lyrics:
+            label = block.get("label", "")
+            btype = block.get("type", "")
+            tag = " ".join(part for part in (btype, label) if part)
+            st.markdown(f"**{tag}**" if tag else "")
+            st.write(block.get("text", ""))
+
+
 st.sidebar.header("Select Source")
 source_type = st.sidebar.radio("Source", ["Hymns", "External Songs"])
 
 current_file = HYMNS_FILE if source_type == "Hymns" else EXT_SONGS_FILE
 songs_data = load_data(current_file)
+
+# Load both groups so we can warn about duplicate titles across them.
+hymns_data = load_data(HYMNS_FILE)
+ext_songs_data = load_data(EXT_SONGS_FILE)
 
 # Sorting by ID if present
 songs_data = sorted(songs_data, key=lambda x: x.get("id", 0))
@@ -45,6 +97,17 @@ if selected_song_str == "--- Create New Song ---":
     new_name = st.text_input("Name")
     new_author = st.text_input("Author", value="")
     new_key = st.text_input("Key", value="")
+
+    # Warn about existing songs with a similar title as the user types.
+    if new_name.strip():
+        similar_hymns = find_similar_songs(new_name, hymns_data)
+        similar_ext = find_similar_songs(new_name, ext_songs_data)
+        if similar_hymns or similar_ext:
+            st.warning("Similar songs already exist — check before creating:")
+            for score, song in similar_hymns:
+                render_similar_song(score, song, "Hymn")
+            for score, song in similar_ext:
+                render_similar_song(score, song, "External")
 
     if st.button("Create"):
         new_song = {

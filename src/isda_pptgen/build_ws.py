@@ -184,6 +184,23 @@ def build_presentation(config: dict):
         else:
             insert_hymn(pres, song_ref)
 
+    def insert_video_if_available(
+        pres: Presentation, video_path: str, thumbnail_path: str, caption: str = ""
+    ):
+        """Insert a video slide only if the media files exist on disk.
+
+        When a video URL is configured but the media was never downloaded
+        (e.g. 'Download Media' is off), skip the slide with a warning instead
+        of failing the whole build.
+        """
+        if os.path.exists(video_path) and os.path.exists(thumbnail_path):
+            insert_video_slide(pres, video_path, thumbnail_path, caption)
+        else:
+            print(
+                f"Warning: video not found at {video_path} (media not downloaded). "
+                "Skipping its slide — enable 'Download Media' to include it."
+            )
+
     # Downloading and preparing media
     download_media = config.get("download_media", False)
     if download_media:
@@ -241,12 +258,13 @@ def build_presentation(config: dict):
     )
 
     # mission spotlight
-    insert_video_slide(
-        presentation,
-        f"{media_dir}/mission-spotlight-subbed.mp4",
-        f"{media_dir}/mission-spotlight.png",
-        "Mission Spotlight",
-    )
+    if mission_spotlight_url != "":
+        insert_video_if_available(
+            presentation,
+            f"{media_dir}/mission-spotlight-subbed.mp4",
+            f"{media_dir}/mission-spotlight.png",
+            "Mission Spotlight",
+        )
 
     # song service
     insert_title_with_logo_slide(presentation, "Song Service")
@@ -303,7 +321,7 @@ def build_presentation(config: dict):
     # special music
     insert_title_with_logo_slide(presentation, "Special Music")
     if special_item_video_url != "":
-        insert_video_slide(
+        insert_video_if_available(
             presentation,
             f"{media_dir}/special-item.mp4",
             f"{media_dir}/special-item.png",
@@ -321,8 +339,10 @@ def build_presentation(config: dict):
 
     insert_title_with_logo_slide(presentation, "Meditation")
     if meditation_video_url != "":
-        insert_video_slide(
-            presentation, f"{media_dir}/meditation.mp4", f"{media_dir}/meditation.png"
+        insert_video_if_available(
+            presentation,
+            f"{media_dir}/meditation.mp4",
+            f"{media_dir}/meditation.png",
         )
 
     # closing song
