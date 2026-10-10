@@ -1349,5 +1349,81 @@
         "text": "⁠Walking in the sunlight, walking in the shadow,\nWalking every day, all along the way, for I am\nWalking in the sunlight, walking in the shadow,\nWalking with Jesus alone."
       }
     ]
+  },
+  {
+    "id": 48,
+    "name": "Shine on Us",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Lord, let Your light\nLight of Your face\nShine on us\nLord, let Your light\nLight of Your face\nShine on us"
+      },
+      {
+        "type": "refrain",
+        "label": "Refrain",
+        "text": "That we may be saved\nThat we may have life\nTo find our way\nIn the darkest night\nLet your light shine on us"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Lord, let your grace\nGrace from Your hand\nCome over us\nLord, let your grace\nGrace from Your hand\nCome over us"
+      },
+      {
+        "type": "refrain",
+        "label": "Refrain",
+        "text": "That we may be saved\nThat we may have life\nTo find our way\nIn the darkest night\nLet Your grace come over us"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Lord, let Your love\nLove with no end\nCome over us\nLord, let Your love\nLove with no end\nCome over us"
+      },
+      {
+        "type": "refrain",
+        "label": "Refrain",
+        "text": "That we may be saved\nThat we may have life\nTo find our way\nIn the darkest night\nLet Your love come over us\nLet Your light shine on us"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Lay My Burdens Down",
+    "author": null,
+    "key": null,
+    "lyrics": [
+      {
+        "type": "verse",
+        "label": "1",
+        "text": "Amazing love, how can it be\nThat You, my God, would die for me?\nAmazing grace, how sweet the sound\nI come and lay my burdens down"
+      },
+      {
+        "type": "verse",
+        "label": "2",
+        "text": "Amazing peace, no more to fear\nMy God, my help is ever near\nAmazing grace, how sweet the sound\nI come and lay my burdens down"
+      },
+      {
+        "type": "verse",
+        "label": "3",
+        "text": "Amazing sight, no longer blind\nYou touched my eyes, new hope I find\nAmazing grace, how sweet the sound\nI come and lay my burdens down"
+      },
+      {
+        "type": "verse",
+        "label": "4",
+        "text": "Amazing joy, I happy shout\nYou took my dark and cast it out\nAmazing grace, how sweet the sound\nI come and lay my burdens down"
+      },
+      {
+        "type": "verse",
+        "label": "5",
+        "text": "Amazing life, forget the grave\nJesus has died, my soul to save\nAmazing grace, how sweet the sound\nI come and lay my burdens down"
+      },
+      {
+        "type": "verse",
+        "label": "6",
+        "text": "Amazing help, no more alone\nNew family, new heavenly home\nAmazing grace, how sweet the sound\nI come and lay my burdens down\nI come and lay my burdens down\nI come and lay my burdens down"
+      }
+    ]
   }
 ]
